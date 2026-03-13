@@ -50,6 +50,7 @@ while i < 8:
     else:
         bs3 += "0"
     i += 1
+```
 Лабораторная 4
 Файл: 4laba.sln
 Улучшенная, структурированная версия программы:
@@ -60,6 +61,7 @@ while i < 8:
 Проверяет корректность через функцию normalize_bits
 Выполняет побитовое И (конъюнкцию)
 Выводит результаты на экран и сохраняет в файл result.txt
+```
 import sys
 
 def normalize_bits(s):
@@ -110,5 +112,6 @@ def main():
 if __name__ == "__main__":
     main()
     input("Press Enter to continue...")
+```
 
 print("Result=", bs3)
